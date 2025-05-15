@@ -1,0 +1,4 @@
+sample,fastq_1,fastq_2,replicate,single_end,control
+C16_REP1_T1,bigdata/C16_1.fq.gz,bigdata/C16_2.fq.gz,1,0,
+DMSO_REP1_T1,bigdata/DMSO_1.fq.gz,bigdata/DMSO_2.fq.gz,1,0,
+LUT_REP1_T1,bigdata/LUT_1.fq.gz,bigdata/LUT_2.fq.gz,1,0,

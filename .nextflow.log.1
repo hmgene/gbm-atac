@@ -1,0 +1,104 @@
+May-15 10:46:20.256 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/atacseq -r 2.1.2 --input input.csv -profile docker --outdir out --genome hg38 --read_length 150 --macs_gsize 2.7e9
+May-15 10:46:20.387 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.2
+May-15 10:46:20.417 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/oannes/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.2,nf-wave@1.12.1
+May-15 10:46:20.442 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-15 10:46:20.443 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-15 10:46:20.446 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+May-15 10:46:20.458 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-15 10:46:20.471 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/oannes/.nextflow/scm
+May-15 10:46:21.297 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/oannes/.nextflow/assets/nf-core/atacseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/atacseq.git
+May-15 10:46:21.329 [main] DEBUG nextflow.scm.RepositoryFactory - Found Git repository result: [RepositoryFactory]
+May-15 10:46:21.338 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/oannes/.nextflow/assets/nf-core/atacseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/atacseq.git
+May-15 10:46:21.775 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/oannes/.nextflow/assets/nf-core/atacseq/nextflow.config
+May-15 10:46:21.777 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/oannes/.nextflow/assets/nf-core/atacseq/nextflow.config
+May-15 10:46:21.787 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/oannes/.nextflow/secrets/store.json
+May-15 10:46:21.790 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@54af3cb9] - activable => nextflow.secret.LocalSecretsProvider@54af3cb9
+May-15 10:46:21.804 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+May-15 10:46:23.669 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, denbi_qbic, alice, mjolnir_globe, uppmax, giga, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, ccga_med, tes, scw, unc_longleaf, tigem, tubingen_apg, google, apollo, ipop_up, vsc_calcua, pdc_kth, googlels, ceci_nic5, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, ucl_myriad, utd_ganymede, charliecloud, seattlechildrens, icr_davros, ceres, munin, arm, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, marvin, biohpc_gen, shifter, mana, mamba, york_viking, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, hki, seadragon, crukmi, csiro_petrichor, qmul_apocrita, docker, engaging, gis, hypatia, psmn, test_controls, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, genouest, cbe, unsw_katana, phoenix, gitpod, seawulf, uod_hpc, fub_curta, uct_hpc, aws_tower, binac, fsu_draco]
+May-15 10:46:23.767 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+May-15 10:46:23.768 [main] DEBUG nextflow.cli.CmdRun - Launching `https://github.com/nf-core/atacseq` [fervent_ekeblad] DSL2 - revision: 1a1dbe52ff [2.1.2]
+May-15 10:46:23.771 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-validation]
+May-15 10:46:23.772 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-15 10:46:23.772 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-validation]
+May-15 10:46:23.774 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
+May-15 10:46:23.881 [main] DEBUG nextflow.plugin.PluginUpdater - Plugin nf-validation version null resolved to: 1.1.4
+May-15 10:46:23.886 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
+May-15 10:46:23.886 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
+May-15 10:46:23.891 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
+May-15 10:46:23.943 [main] DEBUG nextflow.Session - Session UUID: b24bb3cd-e198-4859-a48c-20a8864c44a1
+May-15 10:46:23.944 [main] DEBUG nextflow.Session - Run name: fervent_ekeblad
+May-15 10:46:23.944 [main] DEBUG nextflow.Session - Executor pool size: 12
+May-15 10:46:23.954 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+May-15 10:46:23.960 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-15 10:46:23.976 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.04.2 build 5947
+  Created: 13-05-2025 21:58 UTC (17:58 EDT)
+  System: Linux 5.15.167.4-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.13-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 20815@actor0 [127.0.1.1]
+  CPUs: 12 - Mem: 47.9 GB (321.5 MB) - Swap: 13 GB (12.9 GB)
+May-15 10:46:23.990 [main] DEBUG nextflow.Session - Work-dir: /home/oannes/git/gbm-atac/work [ext2/ext3]
+May-15 10:46:24.024 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-15 10:46:24.035 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-15 10:46:24.062 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+May-15 10:46:24.103 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-15 10:46:24.112 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+May-15 10:46:24.173 [main] DEBUG nextflow.Session - Session start
+May-15 10:46:24.177 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/oannes/git/gbm-atac/out/pipeline_info/execution_trace_2025-05-15_10-46-22.txt
+May-15 10:46:24.185 [main] DEBUG nextflow.Session - Using default localLib path: /home/oannes/.nextflow/assets/nf-core/atacseq/lib
+May-15 10:46:24.188 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/oannes/.nextflow/assets/nf-core/atacseq/lib
+May-15 10:46:24.188 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/oannes/.nextflow/assets/nf-core/atacseq/lib/nfcore_external_java_deps.jar
+May-15 10:46:24.714 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-15 10:46:24.736 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters, paramsHelp:paramsHelp]; plugin Id: nf-validation
+May-15 10:46:24.755 [main] DEBUG nextflow.validation.SchemaValidator - Starting parameters validation
+May-15 10:46:24.789 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/STARIndex/'
+May-15 10:46:24.790 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/'
+May-15 10:46:24.790 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/'
+May-15 10:46:24.790 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf'
+May-15 10:46:24.790 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa'
+May-15 10:46:24.897 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/'
+May-15 10:46:24.898 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/'
+May-15 10:46:24.898 [main] DEBUG n.validation.FilePathValidator - Cloud storage paths are not supported by 'FilePathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa'
+May-15 10:46:24.898 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/STARIndex/'
+May-15 10:46:24.898 [main] DEBUG n.validation.DirectoryPathValidator - Cloud storage paths are not supported by 'DirectoryPathValidator': 's3://ngi-igenomes/igenomes'
+May-15 10:46:24.899 [main] DEBUG n.validation.FilePathValidator - Cloud storage paths are not supported by 'FilePathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf'
+May-15 10:46:24.907 [main] ERROR nextflow.validation.SchemaValidator - ERROR: Validation of pipeline parameters failed!
+May-15 10:46:24.913 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_0dde36176d862e84: /home/oannes/.nextflow/assets/nf-core/atacseq/main.nf
+May-15 10:46:24.914 [main] DEBUG nextflow.Session - Session aborted -- Cause: [0;31mThe following invalid input values have been detected:
+
+* --macs_gsize: expected type: Number, found: String (2.7e9)
+[0m
+
+May-15 10:46:24.931 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.validation.SchemaValidationException: [0;31mThe following invalid input values have been detected:
+
+* --macs_gsize: expected type: Number, found: String (2.7e9)
+[0m
+
+	at nextflow.validation.SchemaValidator.validateParameters(SchemaValidator.groovy:399)
+	at nextflow.validation.SchemaValidator.validateParameters(SchemaValidator.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at nextflow.script.FunctionDef.invoke_a(FunctionDef.groovy:64)
+	at nextflow.script.ComponentDef.invoke_o(ComponentDef.groovy:40)
+	at nextflow.script.WorkflowBinding.invokeMethod(WorkflowBinding.groovy:105)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.invokeMethod(BaseScript.groovy:155)
+	at org.codehaus.groovy.vmplugin.v8.IndyGuardsFiltersAndSignatures.invokeGroovyObjectInvoker(IndyGuardsFiltersAndSignatures.java:151)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at Script_0dde36176d862e84.runScript(Script_0dde36176d862e84:52)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run0(BaseScript.groovy:159)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:193)
+	at nextflow.script.parser.v1.ScriptLoaderV1.runScript(ScriptLoaderV1.groovy:246)
+	at nextflow.script.parser.v1.ScriptLoaderV1.runScript(ScriptLoaderV1.groovy)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:246)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:139)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:379)
+	at nextflow.cli.Launcher.run(Launcher.groovy:513)
+	at nextflow.cli.Launcher.main(Launcher.groovy:673)

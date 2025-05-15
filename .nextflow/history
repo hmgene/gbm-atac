@@ -1,0 +1,11 @@
+2025-05-15 09:53:58	-	tiny_dijkstra	-	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	4afbfef4-4206-4afc-9d51-d01251c3676c	nextflow run nf-core/atacseq -profile test
+2025-05-15 09:54:20	15.9s	tiny_kay	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	10ce5455-e487-4a8f-af3e-1004e1b1192a	nextflow run nf-core/atacseq -profile test --outdir out
+2025-05-15 09:55:54	16.8s	scruffy_fermat	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	3bd45a72-d9c2-4edd-bfd5-8c09073ba6a5	nextflow run nf-core/atacseq -profile test --outdir out --genome hg38
+2025-05-15 09:57:16	12.9s	ecstatic_torricelli	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	4e67dee5-9ed3-4e06-82e7-f3dbfbdecb51	nextflow run nf-core/atacseq -profile test,singularity --outdir out --genome hg38
+2025-05-15 09:58:37	12.2s	scruffy_kirch	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	0bd6e713-2834-4631-9805-b4b266e6a215	nextflow run nf-core/atacseq -profile test,singularity --outdir out --genome hg38
+2025-05-15 10:02:31	33.9s	boring_lattes	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	f3a88502-b785-40fa-8bb0-df08660a21d5	nextflow run nf-core/atacseq -profile test,docker --outdir out --genome hg38
+2025-05-15 10:06:36	33.5s	sleepy_kilby	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	8b183ecd-0d2d-40b2-894b-0721047c1835	nextflow run nf-core/atacseq -profile test,docker --outdir out --genome hg38
+2025-05-15 10:09:24	16s	trusting_jennings	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	e3a1494b-6ce5-48ef-86aa-df9df354088c	nextflow run nf-core/atacseq -profile test --outdir out --genome hg38
+2025-05-15 10:44:52	-	stupefied_bardeen	-	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	9a35dfeb-bd26-4ea1-be54-1a03bd20bf53	nextflow run nf-core/atacseq -r 2.1.2 --input input.csv -profile docker --outdir out --genome hg38
+2025-05-15 10:46:23	-	fervent_ekeblad	-	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	b24bb3cd-e198-4859-a48c-20a8864c44a1	nextflow run nf-core/atacseq -r 2.1.2 --input input.csv -profile docker --outdir out --genome hg38 --read_length 150 --macs_gsize 2.7e9
+2025-05-15 10:46:53	1m 47s	scruffy_gutenberg	ERR	1a1dbe52ffbd82256c941a032b0e22abbd925b8a	75a9f9e1-9f5d-4fe0-b9d0-b3e426f42c1d	nextflow run nf-core/atacseq -r 2.1.2 --input input.csv -profile docker --outdir out --genome hg38 --read_length 150 --macs_gsize 2700000000

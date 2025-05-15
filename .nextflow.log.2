@@ -1,0 +1,121 @@
+May-15 10:44:48.438 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/atacseq -r 2.1.2 --input input.csv -profile docker --outdir out --genome hg38
+May-15 10:44:48.520 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.2
+May-15 10:44:48.540 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/oannes/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.2,nf-wave@1.12.1
+May-15 10:44:48.561 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-15 10:44:48.562 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-15 10:44:48.564 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+May-15 10:44:48.577 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-15 10:44:48.588 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/oannes/.nextflow/scm
+May-15 10:44:49.444 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/oannes/.nextflow/assets/nf-core/atacseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/atacseq.git
+May-15 10:44:49.475 [main] DEBUG nextflow.scm.RepositoryFactory - Found Git repository result: [RepositoryFactory]
+May-15 10:44:49.485 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/oannes/.nextflow/assets/nf-core/atacseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/atacseq.git
+May-15 10:44:50.104 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/oannes/.nextflow/assets/nf-core/atacseq/nextflow.config
+May-15 10:44:50.108 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/oannes/.nextflow/assets/nf-core/atacseq/nextflow.config
+May-15 10:44:50.123 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/oannes/.nextflow/secrets/store.json
+May-15 10:44:50.127 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@7a083b96] - activable => nextflow.secret.LocalSecretsProvider@7a083b96
+May-15 10:44:50.150 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+May-15 10:44:52.201 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, denbi_qbic, alice, mjolnir_globe, uppmax, giga, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, ccga_med, tes, scw, unc_longleaf, tigem, tubingen_apg, google, apollo, ipop_up, vsc_calcua, pdc_kth, googlels, ceci_nic5, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, ucl_myriad, utd_ganymede, charliecloud, seattlechildrens, icr_davros, ceres, munin, arm, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, marvin, biohpc_gen, shifter, mana, mamba, york_viking, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, hki, seadragon, crukmi, csiro_petrichor, qmul_apocrita, docker, engaging, gis, hypatia, psmn, test_controls, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, genouest, cbe, unsw_katana, phoenix, gitpod, seawulf, uod_hpc, fub_curta, uct_hpc, aws_tower, binac, fsu_draco]
+May-15 10:44:52.292 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+May-15 10:44:52.293 [main] DEBUG nextflow.cli.CmdRun - Launching `https://github.com/nf-core/atacseq` [stupefied_bardeen] DSL2 - revision: 1a1dbe52ff [2.1.2]
+May-15 10:44:52.296 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-validation]
+May-15 10:44:52.296 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-15 10:44:52.297 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-validation]
+May-15 10:44:52.298 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
+May-15 10:44:52.417 [main] DEBUG nextflow.plugin.PluginUpdater - Plugin nf-validation version null resolved to: 1.1.4
+May-15 10:44:52.423 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
+May-15 10:44:52.423 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
+May-15 10:44:52.431 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
+May-15 10:44:52.483 [main] DEBUG nextflow.Session - Session UUID: 9a35dfeb-bd26-4ea1-be54-1a03bd20bf53
+May-15 10:44:52.483 [main] DEBUG nextflow.Session - Run name: stupefied_bardeen
+May-15 10:44:52.484 [main] DEBUG nextflow.Session - Executor pool size: 12
+May-15 10:44:52.492 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+May-15 10:44:52.497 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+May-15 10:44:52.515 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.04.2 build 5947
+  Created: 13-05-2025 21:58 UTC (17:58 EDT)
+  System: Linux 5.15.167.4-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.13-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 20687@actor0 [127.0.1.1]
+  CPUs: 12 - Mem: 47.9 GB (310.5 MB) - Swap: 13 GB (12.9 GB)
+May-15 10:44:52.531 [main] DEBUG nextflow.Session - Work-dir: /home/oannes/git/gbm-atac/work [ext2/ext3]
+May-15 10:44:52.563 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-15 10:44:52.574 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-15 10:44:52.600 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+May-15 10:44:52.641 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-15 10:44:52.654 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+May-15 10:44:52.723 [main] DEBUG nextflow.Session - Session start
+May-15 10:44:52.727 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/oannes/git/gbm-atac/out/pipeline_info/execution_trace_2025-05-15_10-44-51.txt
+May-15 10:44:52.734 [main] DEBUG nextflow.Session - Using default localLib path: /home/oannes/.nextflow/assets/nf-core/atacseq/lib
+May-15 10:44:52.737 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/oannes/.nextflow/assets/nf-core/atacseq/lib
+May-15 10:44:52.738 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/oannes/.nextflow/assets/nf-core/atacseq/lib/nfcore_external_java_deps.jar
+May-15 10:44:53.194 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-15 10:44:53.213 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters, paramsHelp:paramsHelp]; plugin Id: nf-validation
+May-15 10:44:53.228 [main] DEBUG nextflow.validation.SchemaValidator - Starting parameters validation
+May-15 10:44:53.260 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/STARIndex/'
+May-15 10:44:53.260 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/'
+May-15 10:44:53.260 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/'
+May-15 10:44:53.260 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf'
+May-15 10:44:53.260 [main] DEBUG nextflow.validation.SchemaValidator - Ignoring validation of cloud storage path 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa'
+May-15 10:44:53.352 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/'
+May-15 10:44:53.353 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/'
+May-15 10:44:53.353 [main] DEBUG n.validation.FilePathValidator - Cloud storage paths are not supported by 'FilePathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa'
+May-15 10:44:53.353 [main] DEBUG nextflow.validation.PathValidator - Cloud storage paths are not supported by 'PathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/STARIndex/'
+May-15 10:44:53.353 [main] DEBUG n.validation.DirectoryPathValidator - Cloud storage paths are not supported by 'DirectoryPathValidator': 's3://ngi-igenomes/igenomes'
+May-15 10:44:53.353 [main] DEBUG n.validation.FilePathValidator - Cloud storage paths are not supported by 'FilePathValidator': 's3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf'
+May-15 10:44:53.355 [main] DEBUG nextflow.validation.SchemaValidator - Finishing parameters validation
+May-15 10:44:54.125 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog, paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+May-15 10:44:54.148 [main] INFO  nextflow.Nextflow - 
+
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/atacseq v2.1.2-g1a1dbe5[0m
+-[2m----------------------------------------------------[0m-
+[1mCore Nextflow options[0m
+  [0;34mrevision       : [0;32m2.1.2[0m
+  [0;34mrunName        : [0;32mstupefied_bardeen[0m
+  [0;34mcontainerEngine: [0;32mdocker[0m
+  [0;34mlaunchDir      : [0;32m/home/oannes/git/gbm-atac[0m
+  [0;34mworkDir        : [0;32m/home/oannes/git/gbm-atac/work[0m
+  [0;34mprojectDir     : [0;32m/home/oannes/.nextflow/assets/nf-core/atacseq[0m
+  [0;34muserName       : [0;32moannes[0m
+  [0;34mprofile        : [0;32mdocker[0m
+  [0;34mconfigFiles    : [0;32m[0m
+
+[1mInput/output options[0m
+  [0;34minput          : [0;32minput.csv[0m
+  [0;34moutdir         : [0;32mout[0m
+
+[1mReference genome options[0m
+  [0;34mgenome         : [0;32mhg38[0m
+  [0;34mfasta          : [0;32ms3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa[0m
+  [0;34mgtf            : [0;32ms3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf[0m
+  [0;34mbwa_index      : [0;32ms3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/[0m
+  [0;34mbowtie2_index  : [0;32ms3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/[0m
+  [0;34mstar_index     : [0;32ms3://ngi-igenomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/STARIndex/[0m
+  [0;34mblacklist      : [0;32m/home/oannes/.nextflow/assets/nf-core/atacseq/assets/blacklists/v3.0/hg38-blacklist.v3.bed[0m
+  [0;34mmito_name      : [0;32mchrM[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+If you use nf-core/atacseq for your analysis please cite:
+
+* The pipeline
+  https://doi.org/10.5281/zenodo.2634132
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+  https://github.com/nf-core/atacseq/blob/master/CITATIONS.md
+
+May-15 10:44:54.153 [main] WARN  nextflow.Nextflow - =============================================================================
+  --macs_gsize parameter has not been provided.
+  It will be auto-calculated by 'khmer unique-kmers.py' using the '--read_length' parameter.
+  Explicitly provide '--macs_gsize macs2_genome_size' to change this behaviour.
+===================================================================================
+May-15 10:44:54.154 [main] ERROR nextflow.Nextflow - Both '--read_length' and '--macs_gsize' not specified! Please specify either to infer MACS2 genome size for peak calling.
