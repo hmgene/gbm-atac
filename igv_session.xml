@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/genome/genome.fa" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/bigwig/DMSO_REP1.mLb.clN.bigWig" type="bigwig"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/bigwig/C16_REP1.mLb.clN.bigWig" type="bigwig"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/macs2/broad_peak/LUT_REP1.mLb.clN_peaks.broadPeak" type="broadpeak"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/target.bed" type="bed"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/bigwig/LUT_REP1.mLb.clN.bigWig" type="bigwig"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/macs2/broad_peak/DMSO_REP1.mLb.clN_peaks.broadPeak" type="broadpeak"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/macs2/broad_peak/C16_REP1.mLb.clN_peaks.broadPeak" type="broadpeak"/>
+        <Resource path="/Users/hyunminkim/git/gbm-atac/bigdata/nf/out/bwa/merged_library/macs2/broad_peak/consensus/consensus_peaks.mLb.clN.bed" type="bed"/>
+    </Resources>
+    <Panel height="513" name="DataPanel" width="1257">
+        <Track altColor="0,0,178" attributeKey="consensus_peaks.mLb.clN.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,0,0" colorScale="ContinuousColorScale;0.0;324.0;255,255,255;0,0,0" displayMode="SQUISHED" fontSize="10" groupByStrand="false" height="73" id="../../bwa/merged_library/macs2/broad_peak/consensus/consensus_peaks.mLb.clN.bed" name="consensus_peaks.mLb.clN.bed" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="C16_REP1.mLb.clN.bigWig" autoScale="false" autoscaleGroup="1" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" fontSize="10" height="73" id="../../bwa/merged_library/bigwig/C16_REP1.mLb.clN.bigWig" name="C16_REP1.mLb.clN.bigWig" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.330698" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" attributeKey="C16_REP1.mLb.clN_peaks.broadPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;260.0;255,255,255;0,0,178" displayMode="SQUISHED" fontSize="10" groupByStrand="false" height="73" id="../../bwa/merged_library/macs2/broad_peak/C16_REP1.mLb.clN_peaks.broadPeak" name="C16_REP1.mLb.clN_peaks.broadPeak" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="DMSO_REP1.mLb.clN.bigWig" autoScale="false" autoscaleGroup="1" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" fontSize="10" height="73" id="../../bwa/merged_library/bigwig/DMSO_REP1.mLb.clN.bigWig" name="DMSO_REP1.mLb.clN.bigWig" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.330698" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" attributeKey="DMSO_REP1.mLb.clN_peaks.broadPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;253.0;255,255,255;0,0,178" displayMode="SQUISHED" fontSize="10" groupByStrand="false" height="73" id="../../bwa/merged_library/macs2/broad_peak/DMSO_REP1.mLb.clN_peaks.broadPeak" name="DMSO_REP1.mLb.clN_peaks.broadPeak" visible="true"/>
+        <Track altColor="0,0,178" attributeKey="LUT_REP1.mLb.clN.bigWig" autoScale="false" autoscaleGroup="1" clazz="org.broad.igv.track.DataSourceTrack" color="0,0,178" fontSize="10" height="74" id="../../bwa/merged_library/bigwig/LUT_REP1.mLb.clN.bigWig" name="LUT_REP1.mLb.clN.bigWig" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="5.330698" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" attributeKey="LUT_REP1.mLb.clN_peaks.broadPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;240.0;255,255,255;0,0,178" displayMode="SQUISHED" fontSize="10" groupByStrand="false" height="74" id="../../bwa/merged_library/macs2/broad_peak/LUT_REP1.mLb.clN_peaks.broadPeak" name="LUT_REP1.mLb.clN_peaks.broadPeak" visible="true"/>
+    </Panel>
+    <Panel height="110" name="FeaturePanel" width="1257">
+        <Track attributeKey="target.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="/Users/hyunminkim/git/gbm-atac/target.bed" name="target.bed" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.7886029411764706"/>
+    <Regions>
+        <Region chromosome="chr1" description="RAD54L" end="46288480" start="46236461"/>
+        <Region chromosome="chr7" description="XRCC2" end="152686193" start="152634776"/>
+        <Region chromosome="chr11" description="NUP98" end="3807792" start="3661083"/>
+        <Region chromosome="chr13" description="BRCA2" end="32410268" start="32305086"/>
+        <Region chromosome="chr15" description="RAD51" end="40742340" start="40684774"/>
+        <Region chromosome="chr15" description="BLM" end="90826166" start="90707346"/>
+        <Region chromosome="chr17" description="BRCA1" end="43180245" start="43034295"/>
+        <Region chromosome="chr17" description="EME1" end="50391483" start="50363220"/>
+    </Regions>
+    <GeneList name="Regions of Interest">
+        chr1:46236462-46288480
+chr7:152634777-152686193
+chr11:3661084-3807792
+chr13:32305087-32410268
+chr15:40684775-40742340
+chr15:90707347-90826166
+chr17:43034296-43180245
+chr17:50363221-50391483
+
+        <Frame chr="chr1" end="4.628848E7" name="chr1:46236462-46288480" start="4.6236461E7"/>
+        <Frame chr="chr7" end="1.52686193E8" name="chr7:152634777-152686193" start="1.52634776E8"/>
+        <Frame chr="chr11" end="3807792.0" name="chr11:3661084-3807792" start="3661083.0"/>
+        <Frame chr="chr13" end="3.2410268E7" name="chr13:32305087-32410268" start="3.2305086E7"/>
+        <Frame chr="chr15" end="4.074234E7" name="chr15:40684775-40742340" start="4.0684774E7"/>
+        <Frame chr="chr15" end="9.0826166E7" name="chr15:90707347-90826166" start="9.0707346E7"/>
+        <Frame chr="chr17" end="4.3180245E7" name="chr17:43034296-43180245" start="4.3034295E7"/>
+        <Frame chr="chr17" end="5.0391483E7" name="chr17:50363221-50391483" start="5.036322E7"/>
+    </GeneList>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

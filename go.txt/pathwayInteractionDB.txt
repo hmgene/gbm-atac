@@ -1,0 +1,187 @@
+TermID	Term	Enrichment	logP	Genes in Term	Target Genes in Term	Fraction of Targets in Term	Total Target Genes	Total Genes	Entrez Gene IDs	Gene Symbols
+ephrina_ephapathway	EphrinA-EPHA pathway	0.000221971674437971	-8.41296077685438	8	3	0.0810810810810811	37	2232	1946,2042,2043	EFNA5,EPHA3,EPHA4
+epha_fwdpathway	EPHA forward signaling	0.00146136716749963	-6.52838286533029	31	4	0.108108108108108	37	2232	2043,2042,1946,10451	EPHA4,EPHA3,EFNA5,VAV3
+glypican_1pathway	Glypican 1 network	0.00838821931459952	-4.78092702005161	26	3	0.0810810810810811	37	2232	9353,7048,3084	SLIT2,TGFBR2,NRG1
+avb3_integrin_pathway	Integrins in angiogenesis	0.0390434982016703	-3.24307891587601	46	3	0.0810810810810811	37	2232	10451,10085,7048	VAV3,EDIL3,TGFBR2
+ephrinarevpathway	Ephrin A  reverse signaling	0.0489329057138412	-3.01730519032597	3	1	0.027027027027027	37	2232	1946	EFNA5
+alk1pathway	ALK1 signaling events	0.0587219648355671	-2.83494143413952	24	2	0.0540540540540541	37	2232	92,7048	ACVR2A,TGFBR2
+cdc42_pathway	CDC42 signaling events	0.107634415550578	-2.22901483527031	70	3	0.0810810810810811	37	2232	2059,5581,5080	EPS8,PRKCE,PAX6
+rac1_reg_pathway	Regulation of RAC1 activity	0.135298026922216	-2.00027532689609	39	2	0.0540540540540541	37	2232	10451,2059	VAV3,EPS8
+botulinumtoxinpathway	Effects of Botulinum toxin	0.139908550625874	-1.9667662796225	9	1	0.027027027027027	37	2232	6857	SYT1
+lpa4_pathway	LPA4-mediated signaling events	0.222394871372222	-1.5033007772483	15	1	0.027027027027027	37	2232	5581	PRKCE
+epha2_fwdpathway	EPHA2 forward signaling	0.248139289174727	-1.39376504058533	17	1	0.027027027027027	37	2232	10451	VAV3
+syndecan_3_pathway	Syndecan-3-mediated signaling events	0.248139289174727	-1.39376504058533	17	1	0.027027027027027	37	2232	8573	CASK
+syndecan_1_pathway	Syndecan-1-mediated signaling events	0.248139289174727	-1.39376504058533	17	1	0.027027027027027	37	2232	8573	CASK
+notch_pathway	Notch signaling pathway	0.249650234518622	-1.38769440264632	58	2	0.0540540540540541	37	2232	1272,92737	CNTN1,DNER
+s1p_s1p2_pathway	S1P2 pathway	0.331877159354955	-1.10299038047616	24	1	0.027027027027027	37	2232	1003	CDH5
+wnt_signaling_pathway	Wnt signaling network	0.375576553576716	-0.97929295751364	28	1	0.027027027027027	37	2232	8323	FZD6
+cdc42_reg_pathway	Regulation of CDC42 activity	0.396370469120238	-0.925405976979907	30	1	0.027027027027027	37	2232	10451	VAV3
+wnt_noncanonical_pathway	Noncanonical Wnt signaling pathway	0.396370469120238	-0.925405976979907	30	1	0.027027027027027	37	2232	23002	DAAM1
+avb3_opn_pathway	Osteopontin-mediated events	0.416490033646321	-0.875892746481896	32	1	0.027027027027027	37	2232	10451	VAV3
+erbb4_pathway	ErbB4 signaling events	0.416490033646321	-0.875892746481896	32	1	0.027027027027027	37	2232	51741	WWOX
+alphasynuclein_pathway	Alpha-synuclein signaling	0.416490033646321	-0.875892746481896	32	1	0.027027027027027	37	2232	7345	UCHL1
+syndecan_2_pathway	Syndecan-2-mediated signaling events	0.426303610353474	-0.852603486202795	33	1	0.027027027027027	37	2232	8573	CASK
+ncadherinpathway	N-cadherin signaling events	0.426303610353474	-0.852603486202795	33	1	0.027027027027027	37	2232	2596	GAP43
+ephbfwdpathway	EPHB forward signaling	0.426303610353474	-0.852603486202795	33	1	0.027027027027027	37	2232	1946	EFNA5
+epopathway	EPO signaling pathway	0.426303610353474	-0.852603486202795	33	1	0.027027027027027	37	2232	7006	TEC
+arf6_pathway	Arf6 signaling events	0.435956528234246	-0.830212746488822	34	1	0.027027027027027	37	2232	3973	LHCGR
+cxcr3pathway	CXCR3-mediated signaling events	0.435956528234246	-0.830212746488822	34	1	0.027027027027027	37	2232	10563	CXCL13
+hif2pathway	HIF-2-alpha transcription factor network	0.435956528234246	-0.830212746488822	34	1	0.027027027027027	37	2232	7291	TWIST1
+lkb1_pathway	LKB1 signaling events	0.5076949789336	-0.67787444690712	42	1	0.027027027027027	37	2232	4133	MAP2
+hnf3apathway	FOXA1 transcription factor network	0.516012461025594	-0.661624364517756	43	1	0.027027027027027	37	2232	1826	DSCAM
+arf6_traffickingpathway	Arf6 trafficking events	0.524193154923803	-0.64589504631658	44	1	0.027027027027027	37	2232	9043	SPAG9
+txa2pathway	Thromboxane A2 receptor signaling	0.53223924873976	-0.63066217505604	45	1	0.027027027027027	37	2232	5581	PRKCE
+rhoa_reg_pathway	Regulation of RhoA activity	0.54015289656651	-0.615903037711055	46	1	0.027027027027027	37	2232	10451	VAV3
+fgf_pathway	FGF signaling pathway	0.547936218994882	-0.601596387503282	47	1	0.027027027027027	37	2232	2263	FGFR2
+cd8tcrpathway	TCR signaling in naive CD8+ T cells	0.555591303614872	-0.587722320465497	48	1	0.027027027027027	37	2232	5581	PRKCE
+nfat_tfpathway	Calcineurin-regulated NFAT-dependent transcription in lymphocytes	0.555591303614872	-0.587722320465497	48	1	0.027027027027027	37	2232	5796	PTPRK
+foxopathway	FoxO family signaling	0.555591303614872	-0.587722320465497	48	1	0.027027027027027	37	2232	7763	ZFAND5
+hes_heypathway	Notch-mediated HES/HEY network	0.555591303614872	-0.587722320465497	48	1	0.027027027027027	37	2232	7291	TWIST1
+cd8tcrdownstreampathway	Downstream signaling in naive CD8+ T cells	0.570524947804986	-0.561198380916604	50	1	0.027027027027027	37	2232	5581	PRKCE
+nfat_3pathway	Role of Calcineurin-dependent NFAT signaling in lymphocytes	0.577807522013443	-0.548514472666027	51	1	0.027027027027027	37	2232	5581	PRKCE
+tgfbrpathway	TGF-beta receptor signaling	0.577807522013443	-0.548514472666027	51	1	0.027027027027027	37	2232	7048	TGFBR2
+il2_1pathway	IL2-mediated signaling events	0.584969888674011	-0.536194905427145	52	1	0.027027027027027	37	2232	5581	PRKCE
+kitpathway	Signaling events mediated by Stem cell factor receptor (c-Kit)	0.584969888674011	-0.536194905427145	52	1	0.027027027027027	37	2232	7006	TEC
+endothelinpathway	Endothelins	0.592013977720036	-0.524225033363292	53	1	0.027027027027027	37	2232	5581	PRKCE
+trkrpathway	Neurotrophic factor-mediated Trk receptor signaling	0.612455429571421	-0.490279107257638	56	1	0.027027027027027	37	2232	4915	NTRK2
+ar_pathway	Coregulation of Androgen receptor activity	0.619045112063874	-0.479577130013059	57	1	0.027027027027027	37	2232	10451	VAV3
+mtor_4pathway	mTOR signaling pathway	0.638166732296272	-0.449155693892048	60	1	0.027027027027027	37	2232	64798	DEPTOR
+tcr_pathway	TCR signaling in naive CD4+ T cells	0.638166732296272	-0.449155693892048	60	1	0.027027027027027	37	2232	5581	PRKCE
+myc_represspathway	Validated targets of C-MYC transcriptional repression	0.644330558679675	-0.439543394690699	61	1	0.027027027027027	37	2232	23671	TMEFF2
+vegfr1_2_pathway	Signaling events mediated by VEGFR1 and VEGFR2	0.656353230217005	-0.421056174259336	63	1	0.027027027027027	37	2232	1003	CDH5
+lysophospholipid_pathway	LPA receptor mediated events	0.667980121609811	-0.403496863957417	65	1	0.027027027027027	37	2232	5581	PRKCE
+telomerasepathway	Regulation of Telomerase	0.673649127378014	-0.39504588614516	66	1	0.027027027027027	37	2232	7486	WRN
+met_pathway	Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	0.705736988752982	-0.348512648075188	72	1	0.027027027027027	37	2232	64798	DEPTOR
+reg_gr_pathway	Glucocorticoid receptor regulatory network	0.75252008938991	-0.284327585851793	82	1	0.027027027027027	37	2232	5087	PBX1
+erbb1_downstream_pathway	ErbB1 downstream signaling	0.825383806942294	-0.191906780292865	102	1	0.027027027027027	37	2232	2059	EPS8
+s1p_s1p5_pathway	S1P5 pathway	0.999999999994473	-5.52678611229707e-12	8	0	0	37	2232
+glypican_3pathway	Glypican 3 network	0.999999999994473	-5.52678611229707e-12	8	0	0	37	2232
+et_egfrpathway	EGFR-dependent Endothelin signaling events	0.999999999994473	-5.52678611229707e-12	8	0	0	37	2232
+nfkappabalternativepathway	Alternative NF-kappaB pathway	0.999999999996084	-3.91573705688269e-12	6	0	0	37	2232
+ephrinb_ephbpathway	EphrinB-EPHB pathway	0.999999999996084	-3.91573705688269e-12	6	0	0	37	2232
+tcrraspathway	Ras signaling in the CD4+ TCR pathway	0.999999999996182	-3.81826489088039e-12	11	0	0	37	2232
+alk2pathway	ALK2 signaling events	0.999999999996182	-3.81826489088039e-12	11	0	0	37	2232
+ranbp2pathway	Sumoylation by RanBP2 regulates transcriptional repression	0.999999999996182	-3.81826489088039e-12	11	0	0	37	2232
+plk_pathway	Polo-like kinase signaling events in the cell cycle	0.999999999996719	-3.2807968892056e-12	4	0	0	37	2232
+syndecan_pathway	Proteogylcan syndecan-mediated signaling events	0.999999999996719	-3.2807968892056e-12	4	0	0	37	2232
+p38gammadeltapathway	Signaling mediated by p38-gamma and p38-delta	0.99999999999699	-3.00986993202607e-12	10	0	0	37	2232
+tcrjnkpathway	JNK signaling in the CD4+ TCR pathway	0.999999999997165	-2.83489244664882e-12	13	0	0	37	2232
+erbb_network_pathway	ErbB receptor signaling network	0.999999999997165	-2.83489244664882e-12	13	0	0	37	2232
+anthraxpathway	Cellular roles of Anthrax toxin	0.999999999997251	-2.74901054698209e-12	22	0	0	37	2232
+myc_pathway	C-MYC pathway	0.999999999997251	-2.74901054698209e-12	22	0	0	37	2232
+a4b1_paxindep_pathway	Paxillin-independent events mediated by a4b1 and a4b7	0.999999999997251	-2.74901054698209e-12	22	0	0	37	2232
+hedgehog_2pathway	Signaling events mediated by the Hedgehog family	0.999999999997251	-2.74901054698209e-12	22	0	0	37	2232
+pdgfrapathway	PDGFR-alpha signaling pathway	0.999999999997251	-2.74901054698209e-12	22	0	0	37	2232
+plk3_pathway	PLK3 signaling events	0.999999999998599	-1.40060031088756e-12	5	0	0	37	2232
+il23pathway	IL23-mediated signaling events	0.999999999998805	-1.19461605161735e-12	37	0	0	37	2232
+foxm1pathway	FOXM1 transcription factor network	0.999999999998805	-1.19461605161735e-12	37	0	0	37	2232
+il2_pi3kpathway	IL2 signaling events mediated by PI3K	0.999999999998805	-1.19461605161735e-12	37	0	0	37	2232
+retinoic_acid_pathway	Retinoic acid receptors-mediated signaling	0.999999999999128	-8.71722139478593e-13	25	0	0	37	2232
+nectin_pathway	Nectin adhesion pathway	0.999999999999128	-8.71722139478593e-13	25	0	0	37	2232
+erbb1_receptor_proximal_pathway	EGF receptor (ErbB1) signaling pathway	0.999999999999128	-8.71722139478593e-13	25	0	0	37	2232
+trail_pathway	TRAIL signaling pathway	0.999999999999128	-8.71722139478593e-13	25	0	0	37	2232
+rapid_gr_pathway	Rapid glucocorticoid signaling	0.999999999999179	-8.20542410860156e-13	7	0	0	37	2232
+pi3kplctrkpathway	Trk receptor signaling mediated by PI3K and PLC-gamma	0.999999999999357	-6.42675425760573e-13	32	0	0	37	2232
+ecadherin_1_pathway	E-cadherin signaling events	0.999999999999492	-5.08292084637485e-13	2	0	0	37	2232
+glypican_2pathway	Glypican 2 network	0.999999999999492	-5.08292084637485e-13	2	0	0	37	2232
+plk2_4pathway	PLK2 and PLK4 events	0.999999999999492	-5.08292084637485e-13	2	0	0	37	2232
+a4b1_a4b7_pathway	a4b1 and a4b7 Integrin signaling	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+glypicanpathway	Glypican pathway	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+aurora_c_pathway	Aurora C signaling	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+hnf3pathway	FOXA transcription factor networks	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+aurora_kinase_pathway	Signaling by Aurora kinases	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+alk1_2pathway	ALK1 pathway	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+pi3kcibpathway	Class IB PI3K non-lipid kinase events	0.999999999999607	-3.93178539347865e-13	3	0	0	37	2232
+arf_3pathway	Arf1 pathway	0.999999999999919	-8.08475417932648e-14	18	0	0	37	2232
+ar_nongenomic_pathway	Nongenotropic Androgen signaling	0.999999999999919	-8.08475417932648e-14	18	0	0	37	2232
+arf6downstreampathway	Arf6 downstream pathway	1.00000000000014	1.45091746518426e-13	15	0	0	37	2232
+hif1apathway	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	1.00000000000014	1.45091746518426e-13	15	0	0	37	2232
+p38alphabetapathway	Regulation of p38-alpha and p38-beta	1.00000000000031	3.07392056420292e-13	27	0	0	37	2232
+ephrinbrevpathway	Ephrin B reverse signaling	1.00000000000031	3.07392056420292e-13	27	0	0	37	2232
+nephrin_neph1_pathway	Nephrin/Neph1 signaling in the kidney podocyte	1.00000000000057	5.69495375839864e-13	26	0	0	37	2232
+il27pathway	IL27-mediated signaling events	1.00000000000057	5.69495375839864e-13	26	0	0	37	2232
+er_nongenomic_pathway	Plasma membrane estrogen receptor signaling	1.00000000000057	5.69495375839864e-13	26	0	0	37	2232
+hdac_classiii_pathway	Signaling events mediated by HDAC Class III	1.00000000000125	1.2508737935267e-12	39	0	0	37	2232
+aurora_b_pathway	Aurora B signaling	1.00000000000125	1.2508737935267e-12	39	0	0	37	2232
+s1p_meta_pathway	Sphingosine 1-phosphate (S1P) pathway	1.00000000000128	1.27640317226154e-12	21	0	0	37	2232
+ecadherin_nascentaj_pathway	E-cadherin signaling in the nascent adherens junction	1.00000000000132	1.32112849390657e-12	33	0	0	37	2232
+circadianpathway	Circadian rhythm pathway	1.00000000000139	1.38684334687287e-12	14	0	0	37	2232
+rxr_vdr_pathway	RXR and RAR heterodimerization with other nuclear receptor	1.00000000000139	1.38684334687287e-12	14	0	0	37	2232
+s1p_s1p4_pathway	S1P4 pathway	1.00000000000139	1.38684334687287e-12	14	0	0	37	2232
+nfkappabatypicalpathway	Atypical NF-kappaB pathway	1.00000000000139	1.38684334687287e-12	14	0	0	37	2232
+p38_mk2pathway	p38 signaling mediated by MAPKAP kinases	1.00000000000148	1.48161830675712e-12	20	0	0	37	2232
+s1p_s1p1_pathway	S1P1 pathway	1.00000000000148	1.48161830675712e-12	20	0	0	37	2232
+ecadherin_keratinocyte_pathway	E-cadherin signaling in keratinocytes	1.00000000000203	2.02838200009576e-12	19	0	0	37	2232
+a4b1_paxdep_pathway	Paxillin-dependent events mediated by a4b1	1.00000000000203	2.02838200009576e-12	19	0	0	37	2232
+smad2_3pathway	Regulation of cytoplasmic and nuclear SMAD2/3 signaling	1.00000000000203	2.02838200009576e-12	19	0	0	37	2232
+ret_pathway	Signaling events regulated by Ret tyrosine kinase	1.00000000000206	2.06414775746996e-12	38	0	0	37	2232
+cd40_pathway	CD40/CD40L signaling	1.00000000000235	2.35218174627223e-12	30	0	0	37	2232
+il2_stat5pathway	IL2 signaling events mediated by STAT5	1.00000000000235	2.35218174627223e-12	30	0	0	37	2232
+p38alphabetadownstreampathway	Signaling mediated by p38-alpha and p38-beta	1.00000000000236	2.35958288857875e-12	35	0	0	37	2232
+erbb2erbb3pathway	ErbB2/ErbB3 signaling events	1.00000000000236	2.35958288857875e-12	35	0	0	37	2232
+hivnefpathway	HIV-1 Nef: Negative effector of Fas and TNF-alpha	1.00000000000236	2.35958288857875e-12	35	0	0	37	2232
+faspathway	FAS (CD95) signaling pathway	1.00000000000236	2.35958288857875e-12	35	0	0	37	2232
+il1pathway	IL1-mediated signaling events	1.00000000000236	2.35958288857875e-12	35	0	0	37	2232
+igf1_pathway	IGF1 pathway	1.00000000000243	2.43350514285091e-12	28	0	0	37	2232
+il12_stat4pathway	IL12 signaling mediated by STAT4	1.00000000000243	2.43350514285091e-12	28	0	0	37	2232
+tcrcalciumpathway	Calcium signaling in the CD4+ TCR pathway	1.00000000000243	2.43350514285091e-12	28	0	0	37	2232
+s1p_s1p3_pathway	S1P3 pathway	1.00000000000243	2.43350514285091e-12	28	0	0	37	2232
+ifngpathway	IFN-gamma pathway	1.00000000000247	2.4701072270754e-12	40	0	0	37	2232
+ecadherin_stabilization_pathway	Stabilization and expansion of the E-cadherin adherens junction	1.00000000000247	2.4701072270754e-12	40	0	0	37	2232
+lymphangiogenesis_pathway	VEGFR3 signaling in lymphatic endothelium	1.0000000000025	2.50012846793548e-12	23	0	0	37	2232
+rhodopsin_pathway	Visual signal transduction: Rods	1.0000000000025	2.50012846793548e-12	23	0	0	37	2232
+nfkappabcanonicalpathway	Canonical NF-kappaB pathway	1.0000000000025	2.50012846793548e-12	23	0	0	37	2232
+prlsignalingeventspathway	Signaling events mediated by PRL	1.0000000000025	2.50012846793548e-12	23	0	0	37	2232
+cone_pathway	Visual signal transduction: Cones	1.0000000000025	2.50012846793548e-12	23	0	0	37	2232
+il6_7pathway	IL6-mediated signaling events	1.00000000000264	2.63919940449322e-12	43	0	0	37	2232
+insulin_pathway	Insulin Pathway	1.00000000000264	2.63919940449322e-12	43	0	0	37	2232
+p75ntrpathway	p75(NTR)-mediated signaling	1.00000000000275	2.75276469548405e-12	61	0	0	37	2232
+il12_2pathway	IL12-mediated signaling events	1.00000000000275	2.75276469548405e-12	61	0	0	37	2232
+rhoa_pathway	RhoA signaling pathway	1.00000000000288	2.88021959159896e-12	41	0	0	37	2232
+pi3kcipathway	Class I PI3K signaling events	1.00000000000288	2.88021959159896e-12	41	0	0	37	2232
+erbb1_internalization_pathway	Internalization of ErbB1	1.00000000000294	2.94050847806504e-12	34	0	0	37	2232
+pi3kciaktpathway	Class I PI3K signaling events mediated by Akt	1.00000000000294	2.94050847806504e-12	34	0	0	37	2232
+hdac_classii_pathway	Signaling events mediated by HDAC Class II	1.00000000000294	2.94050847806504e-12	34	0	0	37	2232
+fra_pathway	Validated transcriptional targets of AP1 family members Fra1 and Fra2	1.00000000000294	2.94050847806504e-12	34	0	0	37	2232
+rb_1pathway	Regulation of retinoblastoma protein	1.00000000000319	3.19355639286107e-12	56	0	0	37	2232
+syndecan_4_pathway	Syndecan-4-mediated signaling events	1.00000000000361	3.61330866266342e-12	31	0	0	37	2232
+a6b1_a6b4_integrin_pathway	a6b1 and a6b4 Integrin signaling	1.00000000000361	3.61330866266342e-12	31	0	0	37	2232
+aurora_a_pathway	Aurora A signaling	1.00000000000361	3.61330866266342e-12	31	0	0	37	2232
+lis1pathway	Lissencephaly gene (LIS1) in neuronal migration and development	1.00000000000361	3.61330866266342e-12	31	0	0	37	2232
+wnt_canonical_pathway	Canonical Wnt signaling pathway	1.00000000000361	3.61330866266342e-12	31	0	0	37	2232
+bcr_5pathway	BCR signaling pathway	1.00000000000388	3.88151833807153e-12	66	0	0	37	2232
+hdac_classi_pathway	Signaling events mediated by HDAC Class I	1.00000000000388	3.88151833807153e-12	66	0	0	37	2232
+hif1_tfpathway	HIF-1-alpha transcription factor network	1.00000000000389	3.89460739262083e-12	65	0	0	37	2232
+angiopoietinreceptor_pathway	Angiopoietin receptor Tie2-mediated signaling	1.00000000000448	4.4823053711473e-12	48	0	0	37	2232
+amb2_neutrophils_pathway	amb2 Integrin signaling	1.00000000000448	4.4823053711473e-12	48	0	0	37	2232
+p53regulationpathway	p53 pathway	1.0000000000046	4.60222380182086e-12	59	0	0	37	2232
+fcer1pathway	Fc-epsilon receptor I signaling in mast cells	1.0000000000046	4.60222380182086e-12	59	0	0	37	2232
+bmppathway	BMP receptor signaling	1.00000000000463	4.62791256861754e-12	36	0	0	37	2232
+tcptp_pathway	Signaling events mediated by TCPTP	1.00000000000463	4.62791256861754e-12	36	0	0	37	2232
+plk1_pathway	PLK1 signaling events	1.00000000000481	4.81078800871446e-12	44	0	0	37	2232
+ceramide_pathway	Ceramide signaling pathway	1.00000000000481	4.81078800871446e-12	44	0	0	37	2232
+hnf3bpathway	FOXA2 and FOXA3 transcription factor networks	1.00000000000481	4.81078800871446e-12	44	0	0	37	2232
+tnfpathway	TNF receptor signaling pathway	1.00000000000481	4.81078800871446e-12	44	0	0	37	2232
+hedgehog_glipathway	Hedgehog signaling events mediated by Gli proteins	1.00000000000481	4.81078800871446e-12	44	0	0	37	2232
+p38_mkk3_6pathway	p38 MAPK signaling pathway	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+vegfr1_pathway	VEGFR1 specific signals	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+insulin_glucose_pathway	Insulin-mediated glucose transport	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+mapktrkpathway	Trk receptor signaling mediated by the MAPK pathway	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+reelinpathway	Reelin signaling pathway	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+bard1pathway	BARD1 signaling events	1.00000000000481	4.81157578787882e-12	29	0	0	37	2232
+rac1_pathway	RAC1 signaling pathway	1.00000000000499	4.98777239359494e-12	54	0	0	37	2232
+fak_pathway	Signaling events mediated by focal adhesion kinase	1.00000000000499	4.98777239359494e-12	54	0	0	37	2232
+pdgfrbpathway	PDGFR-beta signaling pathway	1.00000000000499	4.98777239359494e-12	54	0	0	37	2232
+ps1pathway	Presenilin action in Notch and Wnt signaling	1.00000000000508	5.07751399355784e-12	46	0	0	37	2232
+il4_2pathway	IL4-mediated signaling events	1.00000000000512	5.11691463244298e-12	63	0	0	37	2232
+cmyb_pathway	C-MYB transcription factor network	1.0000000000054	5.39656997341977e-12	78	0	0	37	2232
+cxcr4_pathway	CXCR4-mediated signaling events	1.00000000000583	5.83088038179386e-12	76	0	0	37	2232
+e2f_pathway	E2F transcription factor network	1.00000000000678	6.77894522906887e-12	73	0	0	37	2232
+atf2_pathway	ATF-2 transcription factor network	1.0000000000072	7.1973750320157e-12	55	0	0	37	2232
+wnt_beta_catenin_pathway	Regulation of Wnt-mediated beta catenin signaling and target gene transcription	1.00000000000762	7.62139501338288e-12	79	0	0	37	2232
+smad2_3nuclearpathway	Regulation of nuclear SMAD2/3 signaling	1.00000000000768	7.68237040484131e-12	77	0	0	37	2232
+ar_tf_pathway	Regulation of Androgen receptor activity	1.00000000000768	7.68415232014136e-12	50	0	0	37	2232
+caspase_pathway	Caspase cascade in apoptosis	1.00000000000768	7.68415232014136e-12	50	0	0	37	2232
+ptp1bpathway	Signaling events mediated by PTP1B	1.00000000000768	7.68415232014136e-12	50	0	0	37	2232
+myc_activpathway	Validated targets of C-MYC transcriptional activation	1.00000000000884	8.83812426516063e-12	81	0	0	37	2232
+p53downstreampathway	Direct p53 effectors	1.00000000001508	1.50752115524485e-11	132	0	0	37	2232

@@ -1,0 +1,11 @@
+PeakID (cmd=annotatePeaks.pl results/tmp hg38 -annStats results/merged.p-3.annot.stats)	Chr	Start	End	Strand	Peak Score	Focus Ratio/Region Size	Annotation	Detailed Annotation	Distance to TSS	Nearest PromoterID	Entrez ID	Nearest Unigene	Nearest Refseq	Nearest Ensembl	Gene Name	Gene Alias	Gene Description	Gene Type
+C16_NA_LUT_Up-4	chr1	10606995	10607694	+	0	NA	intron (NM_004565, intron 4 of 8)	L1ME2|LINE|L1	132394	NM_004565	5195		NM_004565	ENSG00000142655	PEX14	NAPP2|PBD13A|Pex14p|dJ734G22.2	peroxisomal biogenesis factor 14	protein-coding
+C16_NA_LUT_Up	chr1	100535832	100536160	+	0	NA	Intergenic	Intergenic	-2143	NM_022049	54112		NM_022049	ENSG00000181656	GPR88	COCPMR|STRG	G protein-coupled receptor 88	protein-coding
+C16_NA_LUT_Up-3	chr1	103026003	103026519	+	0	NA	exon (NM_001854, exon 6 of 67)	exon (NM_001854, exon 6 of 67)	82235	NM_001190709	1301		NM_001854	ENSG00000060718	COL11A1	CO11A1|COLL6|DFNA37|STL2	collagen type XI alpha 1 chain	protein-coding
+C16_NA_LUT_Up-2	chr1	101179222	101179483	+	0	NA	Intergenic	Intergenic	57176	NR_104626	101928370		NR_104626		S1PR1-DT	LISPR1	S1PR1 divergent transcript	ncRNA
+C16_Up_LUT_Up	chr1	100624993	100625626	+	0	NA	Intergenic	Intergenic	21695	NR_038914	100128787		NR_038914		LINC01349	-	long intergenic non-protein coding RNA 1349	ncRNA
+C16_Up_LUT_NA-2	chr1	112571921	112572378	+	0	NA	intron (NM_001308264, intron 10 of 13)	Tigger1|DNA|TcMar-Tigger	46992	NM_017744	54879		NM_017744	ENSG00000007341	ST7L	FAM4B|ST7R|STLR	suppression of tumorigenicity 7 like	protein-coding
+C16_NA_LUT_Up-5	chr1	109573486	109574245	+	0	NA	intron (NM_006496, intron 2 of 8)	intron (NM_006496, intron 2 of 8)	-25028	NR_029583	406974		NR_029583	ENSG00000284443	MIR197	MIRN197|miR-197|miRNA197	microRNA 197	ncRNA
+C16_Up_LUT_Up-2	chr1	106746546	106747084	+	0	NA	Intergenic	Intergenic	-71424	NR_147165	105378889		NR_147165		LINC01661	-	long intergenic non-protein coding RNA 1661	ncRNA
+C16_Up_LUT_NA	chr1	111388888	111389236	+	0	NA	intron (NR_029429, intron 2 of 4)	intron (NR_029429, intron 2 of 4)	789	NR_029429	441897		NR_029429	ENSG00000290561	PGBP	PGCP1	pepsinogen B, pseudogene	pseudo
+C16_Up_LUT_Up-3	chr1	107453043	107454391	+	0	NA	intron (NM_001372166, intron 6 of 6)	intron (NM_001372166, intron 6 of 6)	234782	NM_001079874	10451		NM_006113	ENSG00000134215	VAV3	-	vav guanine nucleotide exchange factor 3	protein-coding
